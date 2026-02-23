@@ -1444,11 +1444,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb6ebc46f91b50f42b6a28370852039a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPet: {fileID: 0}
-  hungerSlider: {fileID: 0}
-  happinessSlider: {fileID: 0}
-  energySlider: {fileID: 0}
-  moodText: {fileID: 0}
+  currentPet: {fileID: 1654524464}
+  hungerSlider: {fileID: 471508703}
+  happinessSlider: {fileID: 1787756092}
+  energySlider: {fileID: 328100489}
+  moodText: {fileID: 1419945469}
 --- !u!4 &1275488289
 Transform:
   m_ObjectHideFlags: 0
@@ -1759,7 +1759,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1365203741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 908579356}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: FeedPet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1365203741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2064,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1617238665}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 908579356}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PlayWithPet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1617238665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2575,7 +2599,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2036174724}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 908579356}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: PutPetToSleep
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2036174724
 MonoBehaviour:
   m_ObjectHideFlags: 0
